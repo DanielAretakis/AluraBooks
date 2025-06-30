@@ -3,8 +3,16 @@
 :root{
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --menu-titulo: #EB9B00;
+    --menu-itens: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-texto: "Poppins", sans-serif;
+    --tamanho-texto: 16px;
+    --fonte-titulo: "Poppins", sans-serif;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: var(--tamanho-texto);
 }
