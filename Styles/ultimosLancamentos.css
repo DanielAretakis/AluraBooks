@@ -69,3 +69,7 @@
     text-decoration: none;
     align-self: center;
 }
+
+.descricao img{
+    margin-bottom: 9px;
+}
