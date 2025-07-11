@@ -57,3 +57,38 @@
 .container__botao{
     display: none;
 }
+
+.container__titulo{
+    display: none;
+}
+
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo-negrito {
+        font-size: 30px;
+        display: block;
+    }
+
+    .container__titulo-negrito{
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+        gap: 2em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .invisivel{
+        display: none;
+    }
+}
